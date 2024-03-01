@@ -24,6 +24,13 @@ body {
 	text-shadow: 2px 2px #FDFEFE;
 }
 
+.titles {
+	font-family:"Playfair Display";
+	font-weight: 500;
+    font-style: normal;
+	color:#17202A;	
+}
+
 .grandstander-subtitles {
   font-family: "Grandstander", cursive;
   font-optical-sizing: auto;
