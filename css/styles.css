@@ -53,6 +53,13 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+
+.end-note{
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume {
@@ -103,3 +110,13 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+.purple-foot {
+	color: #00CEFF !important;
+}
+
+.footer {
+  background:#2C5E4D;
+  max-width: 100%;
+}
+
