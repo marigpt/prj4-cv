@@ -1,34 +1,70 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Micro5:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/* Styles for the body */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')/* Styles for the body */
 
 body {
-	font-family: Micro 5, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #20c997;
+  color:#17202A
 }
 
+.playfair-display-h1 {
+  font-family: "Playfair Display", serif;
+  text-shadow: 2px 2px #1E8449 ;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color:#FDFEFE
+}
+
+.h5 {
+	font-family:"Playfair Display";
+	font-weight: 500;
+    font-style: normal;
+	color:#1E8449;	
+	text-shadow: 2px 2px #FDFEFE;
+}
+
+.grandstander-subtitles {
+  font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color:#1E8449;
+  text-shadow: 2px 2px #FDFEFE;
+}
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.language-bars {
+  font-family: "Kode Mono", monospace;
+  font-size:smaller;
+  font-weight: 600;
+  font-style: normal;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.resume {
+    background-color:#CCEAFF;
+ }
 .resume-header {
-    background-color: #e0f0ff;
+    background-color:#A9DFBF;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color:#BFF4AC;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color:#A2D9CE;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "*";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,7 +72,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color:#9B59B6;
 }
 
 .biography-details li, .skill-list li {
@@ -44,6 +80,15 @@ body {
 }
 
 /* Styles for contact icons */
+
+.mari-level {
+	border-color:#5C5AE8 !important;
+	background-color:#D1E3FF;
+}
+
+.bordercollie {
+	background-color:#6AE2FF !important;
+}
 
 .contact-icon {
 	height: 1em;
