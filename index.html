@@ -6,8 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Links to the CSS styles from Bootstrap. -->
-    <!-- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -18,65 +16,26 @@
     <title>Mariana Rocha's Resumé</title>
   </head>
 
-  <!-- Start of the body, which contains everything visible on the page -->
   <body class="d-flex flex-column h-100 justify-content-between resume">
 
-    <!--
-      We use a Bootstrap container to align contents.
-      The "container" class can be replaced by "container-fluid" to make a full width page.
-      The "my-sm-4" class adds a margin (m) vertical (y) at sizes small (-sm-) and above, of 4 x 6 pixels
-      The "resume-container" class doesn't come from Bootstrap, you can use it for your own styles
-    -->
     <div class="container shadow-lg my-sm-4 resume-container">
-
-      <!--
-        <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
-        The "row" class is used for the Bootstrap grid.
-      -->
       <header class="row resume-header justify-content-center">
-        <!--
-          A container to wrap around the portrait and align it. We use Bootstrap grid columns.
-          This constrains the portrait to columns of decreasing sizes
-        -->
         <div class="portrait-container col-5 col-sm-4 col-md-3 col-lg-2">
-          <!--
-            "w-100" makes sure the image takes the full width of the column it's in
-            "rounded-circle" cuts a circle around the image
-          -->
           <img class="w-600 rounded-circle my-3" src="images/image2.jpeg" alt="Portrait of Mariana Rocha" width="160">
         </div>
-        <!--
-          A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
-        -->
+
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
           <h1 class="playfair-display-h1">Mariana Pereira Rocha</h1>
           <h5 class="fst-italic tagline h5">2nd Year Creative Business Student</h5>
         </div>
       </header>
 
-      <!--
-        Another row in the Bootstrap grid, for the rest of the résumé.
-        Biography and other details will be on top of each other at sizes XS and S, then next to each other.
-        Use the "flex-row-reverse" class here to swap the columns around.
-      -->
       <div class="row resume-bottom">
-
-        <!--
-          <main> is another semantic element. It will contain biographical info (professional experience and education).
-        -->
         <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
-
-          <!--
-            <section> is yet another semantic element. The first one is for professional experience.
-          -->
           <section class="my-3 biography-section">
             <h2 class="grandstander-subtitles">Professional Experience</h2>
-        
             <ul class="biography-list list-unstyled">
-
-              <!-- Top item (generally the latest or most relevant) in professional experience -->
               <li class="biography-item row mb-2">
-                <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/Killerdatelogo.png" alt="Short Movie Logo" width="80">
                 </div>
@@ -85,13 +44,12 @@
                   <h5 class="cool-font">April&ndash;June 2023</h5>
                   <ul class="biography-details list-unstyled titillium-web-extralight">
                     <li>Coordinated Pre-production, Shootings on location and Post-procution</li>
-                    <li>Took part in a Director Workshop by lecturer Nina Saunders</li>
+                    <li>Took part in a Director Workshop by the Lecturer Nina Saunders</li>
                     <li>Part of my studies at Breda University of Applied Sciences</li>
                   </ul>
                 </div>
               </li>
 
-              <!-- 2nd item in professional experience -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
@@ -110,13 +68,10 @@
             </ul>
           </section>
 
-          <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
             <h2 class="grandstander-subtitles">Education</h2>
             <ul class="biography-list list-unstyled">
-
-              <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
@@ -147,27 +102,13 @@
               </li>
             </ul>
           </section>
-
-          <!-- This is the end of the "Education" section -->
-
         </main>
 
-        <!--
-          We're done with the first column.
-          We now move on to the column with contact details, languages and other skills
-          <aside> is also a semantic element.
-        -->
         <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
 
-          <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
             <h2 class="grandstander-subtitles">Contact</h2>
-            <!--
-              A list of all your contact details.
-              There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
-              Be careful and only put channels through which you really want to be contacted.
-              If your phone number is your personal one, you may want to remove it!
-            -->
+          
             <ul class="contact-list list-unstyled">
               <li class="contact-item">
                 <li class="contact-item">
@@ -195,8 +136,6 @@
               </li>
             </ul>
           </section>
-
-          <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
             <h2 class="grandstander-subtitles">Languages</h2>
@@ -243,7 +182,6 @@
             </ul>
           </section>
 
-          <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
             <h2 class="grandstander-subtitles">Skills</h2>
@@ -255,7 +193,6 @@
             </ul>
           </section>
 
-          <!-- End of other skills, moving on to interest and hobbies -->
 
           <section class="my-3 aside-section">
             <h2 class="grandstander-subtitles">Freetime Activities</h2>
@@ -271,7 +208,7 @@
       </div>
     </div>
 
-    <!-- And now, a footer! -->
+    
     <footer class="footer mt-sm-5 py-4">
       <p class="container text-end end-note purple-foot">
         Created with love as part of the <a href="https://www.buas.nl/en/programmes/creative-business" target="_blank">Bachelor of Creative Business at Breda University of Applied Sciences.</a>
