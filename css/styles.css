@@ -31,6 +31,8 @@ body {
   font-style: normal;
   color:#1E8449;
   text-shadow: 2px 2px #FDFEFE;
+
+
 }
 .titillium-web-extralight {
   font-family: "Titillium Web", sans-serif;
@@ -38,10 +40,10 @@ body {
   font-style: normal;
 }
 
-.language-bars {
+.cool-font {
   font-family: "Kode Mono", monospace;
   font-size:smaller;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
